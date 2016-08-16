@@ -5,7 +5,6 @@ My vim dot files. the `.vimrc` file is saved to [vimrc](https://github.com/scanf
 Run the following commands to get set up:
 
 ```console
-$ cd ~/
-$ git clone --recursive https://github.com/jfrazelle/.vim.git .vim
+$ git clone --recursive https://github.com/jfrazelle/.vim.git $HOME/.vim
 $ ln -sf $HOME/.vim/vimrc $HOME/.vimrc
 ```
