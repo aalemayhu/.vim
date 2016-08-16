@@ -1,0 +1,36 @@
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "bundle/cosco.vim"]
+	path = bundle/cosco.vim
+	url = https://github.com/lfilho/cosco.vim.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/smartgf.vim"]
+	path = bundle/smartgf.vim
+	url = https://github.com/gorkunov/smartgf.vim.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/sourcekittendaemon.vim"]
+	path = bundle/sourcekittendaemon.vim
+	url = https://github.com/keith/sourcekittendaemon.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/swift.vim"]
+	path = bundle/swift.vim
+	url = https://github.com/scanf/swift.vim.git
+[submodule "bundle/vim-addon-linux-coding-style"]
+	path = bundle/vim-addon-linux-coding-style
+	url = https://github.com/vivien/vim-addon-linux-coding-style.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-table-mode"]
+	path = bundle/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
