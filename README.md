@@ -1,6 +1,6 @@
 # .vim
 
-My vim dot files. the `.vimrc` file is saved to [vimrc](https://github.com/scanf/.vim/blob/master/vimrc).
+My vim dot files. the `.vimrc` file is saved to [vimrc](https://github.com/scanf/.vim/blob/master/.vimrc).
 
 Run the following commands to get set up:
 
