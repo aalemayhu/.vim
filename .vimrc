@@ -19,7 +19,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scanf/swift.vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'vivien/vim-addon-linux-coding-style'
-Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
