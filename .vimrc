@@ -20,6 +20,7 @@ Plugin 'scanf/swift.vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'vivien/vim-addon-linux-coding-style'
 Plugin 'jceb/vim-orgmode'
+Plugin 'edkolev/tmuxline.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
