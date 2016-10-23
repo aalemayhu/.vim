@@ -21,6 +21,7 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'vivien/vim-addon-linux-coding-style'
 Plugin 'jceb/vim-orgmode'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'jaxbot/github-issues.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -149,3 +150,5 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " " Underline misspelled words
 " hi clear SpellBad
 " hi SpellBad cterm=underline
+
+source ~/.github_token
