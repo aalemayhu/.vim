@@ -149,5 +149,3 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " " Underline misspelled words
 " hi clear SpellBad
 " hi SpellBad cterm=underline
-
-source ~/.github_token
