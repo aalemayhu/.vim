@@ -4,6 +4,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/src/github.com/VundleVim/Vundle.vim
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -20,7 +21,7 @@ Plugin 'scanf/swift.vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'vivien/vim-addon-linux-coding-style'
 Plugin 'jceb/vim-orgmode'
-Plugin 'edkolev/tmuxline.vim'
+Plugin 'powerline/powerline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -149,3 +150,4 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " " Underline misspelled words
 " hi clear SpellBad
 " hi SpellBad cterm=underline
+set laststatus=2
