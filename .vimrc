@@ -22,6 +22,7 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'vivien/vim-addon-linux-coding-style'
 Plugin 'jceb/vim-orgmode'
 Plugin 'powerline/powerline'
+Plugin 'majutsushi/tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
