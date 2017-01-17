@@ -23,9 +23,14 @@ generate_readme()
     readme=`find $plugin -maxdepth 1 -iname 'README.*'`
     if [ -n $readme ]; then
       echo "`cat $readme|head -n1|tr '#' '-'` - [link]($plugin)" >> $output
+      echo >> $output
     fi
   done
 }
 
 refresh_modules
 generate_readme
+
+git add .
+git commit -m "update" .
+
