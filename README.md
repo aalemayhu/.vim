@@ -24,5 +24,3 @@ This repository was orginaly based on
 
 - VIM Table Mode v4.6.4.4 [![Build Status](https://travis-ci.org/dhruvasagar/vim-table-mode.png?branch=master)](https://travis-ci.org/dhruvasagar/vim-table-mode) - [link](bundle/vim-table-mode)
 
--- [Help Maintain Vundle](https://github.com/VundleVim/Vundle.vim/issues/383) - [link](bundle/Vundle.vim)
-
