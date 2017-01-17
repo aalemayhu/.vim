@@ -22,7 +22,7 @@ generate_readme()
   do
     readme=`find $plugin -maxdepth 1 -iname 'README.*'`
     if [ -n $readme ]; then
-      echo "`cat $readme|head -n1|tr -d '-'` - [link]($plugin)" >> $output
+      echo "`cat $readme|head -n1|tr '#' '-'` - [link]($plugin)" >> $output
     fi
   done
 }
