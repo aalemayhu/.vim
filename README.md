@@ -10,8 +10,6 @@ This repository was orginaly based on
 
 - [The NERD Tree](https://github.com/scrooloose/nerdtree.git)
 
-- [ SourceKittenDaemon.vim](https://github.com/keith/sourcekittendaemon.vim.git)
-
 - [swift.vim](https://github.com/scanf/swift.vim.git)
 
 - [ Tagbar: a class outline viewer for Vim](https://github.com/majutsushi/tagbar.git)
