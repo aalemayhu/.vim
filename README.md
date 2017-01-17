@@ -6,5 +6,23 @@ This repository was orginaly based on
 
 ## Plugins
 
--  - [link](bundle/*)
+- ctrlp.vim - [link](bundle/ctrlp.vim)
+
+- The NERD Tree - [link](bundle/nerdtree)
+
+- SourceKittenDaemon.vim - [link](bundle/sourcekittendaemon.vim)
+
+- swift.vim - [link](bundle/swift.vim)
+
+- Tagbar: a class outline viewer for Vim - [link](bundle/tagbar)
+
+- linuxsty.vim - [link](bundle/vim-addon-linux-coding-style)
+
+- fugitive.vim - [link](bundle/vim-fugitive)
+
+- lengthmatters.vim - [link](bundle/vim-lengthmatters)
+
+- VIM Table Mode v4.6.4.4 [![Build Status](https://travis-ci.org/dhruvasagar/vim-table-mode.png?branch=master)](https://travis-ci.org/dhruvasagar/vim-table-mode) - [link](bundle/vim-table-mode)
+
+-- [Help Maintain Vundle](https://github.com/VundleVim/Vundle.vim/issues/383) - [link](bundle/Vundle.vim)
 
