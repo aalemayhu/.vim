@@ -24,7 +24,7 @@ generate_readme()
     if [ -n $readme ]; then
       echo $plugin
       url=`cat $plugin/.git/config|grep url|awk '{ print $3}'`
-      title="[`cat $readme|head -n1|tr '#' '-'`]($url)"
+      title="[`cat $readme|head -n1|tr '#' '-'|tr -d '-'`]($url)"
       if [[ ! "$title" == "-"* ]]; then
         echo "- $title" >> $output
       else

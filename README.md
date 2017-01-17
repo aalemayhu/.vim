@@ -6,21 +6,21 @@ This repository was orginaly based on
 
 ## Plugins
 
-- [- ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim.git)
+- [ ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim.git)
 
 - [The NERD Tree](https://github.com/scrooloose/nerdtree.git)
 
-- [- SourceKittenDaemon.vim](https://github.com/keith/sourcekittendaemon.vim.git)
+- [ SourceKittenDaemon.vim](https://github.com/keith/sourcekittendaemon.vim.git)
 
 - [swift.vim](https://github.com/scanf/swift.vim.git)
 
-- [- Tagbar: a class outline viewer for Vim](https://github.com/majutsushi/tagbar.git)
+- [ Tagbar: a class outline viewer for Vim](https://github.com/majutsushi/tagbar.git)
 
-- [- linuxsty.vim](https://github.com/vivien/vim-addon-linux-coding-style.git)
+- [ linuxsty.vim](https://github.com/vivien/vim-addon-linux-coding-style.git)
 
-- [- fugitive.vim](https://github.com/tpope/vim-fugitive.git)
+- [ fugitive.vim](https://github.com/tpope/vim-fugitive.git)
 
-- [- lengthmatters.vim](https://github.com/whatyouhide/vim-lengthmatters.git)
+- [ lengthmatters.vim](https://github.com/whatyouhide/vim-lengthmatters.git)
 
-- [- VIM Table Mode v4.6.4.4 [![Build Status](https://travis-ci.org/dhruvasagar/vim-table-mode.png?branch=master)](https://travis-ci.org/dhruvasagar/vim-table-mode)](https://github.com/dhruvasagar/vim-table-mode.git)
+- [ VIM Table Mode v4.6.4.4 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)](https://github.com/dhruvasagar/vim-table-mode.git)
 
