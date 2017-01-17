@@ -23,7 +23,7 @@ generate_readme()
     readme=`find $plugin -maxdepth 1 -iname 'README.*'`
     if [ -n $readme ]; then
       title="`cat $readme|head -n1|tr '#' '-'` - [link]($plugin)"
-      if [[ ! "$title" =~ -* ]]; then
+      if [[ ! "$title" == "-"* ]]; then
         echo "- $title" >> $output
       else
         echo "$title" >> $output
@@ -33,9 +33,8 @@ generate_readme()
   done
 }
 
-refresh_modules
+#refresh_modules
 generate_readme
 
 git add .
 git commit -m "update" .
-
