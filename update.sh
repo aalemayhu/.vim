@@ -24,9 +24,10 @@ generate_readme()
     if [ -n $readme ]; then
       title="`cat $readme|head -n1|tr '#' '-'` - [link]($plugin)"
       if [[ ! "$title" =~ -* ]]; then
-        title="- $title"
+        echo "- $title" >> $output
+      else
+        echo "$title" >> $output
       fi
-      echo "$title" >> $output
       echo >> $output
     fi
   done
