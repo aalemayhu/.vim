@@ -6,8 +6,6 @@ This repository was orginaly based on
 
 ## Plugins
 
-- cosco.vim - [link](bundle/cosco.vim)
-
 - ctrlp.vim - [link](bundle/ctrlp.vim)
 
 - The NERD Tree - [link](bundle/nerdtree)
@@ -17,8 +15,6 @@ This repository was orginaly based on
 -- snipMate - [link](bundle/snipmate.vim)
 
 - SourceKittenDaemon.vim - [link](bundle/sourcekittendaemon.vim)
-
-- .. Copyright (c) 2012 - 2014, Eric Van Dewoestine - [link](bundle/supertab)
 
 - swift.vim - [link](bundle/swift.vim)
 
