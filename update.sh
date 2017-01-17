@@ -22,7 +22,8 @@ generate_readme()
   do
     readme=`find $plugin -maxdepth 1 -iname 'README.*'`
     if [ -n $readme ]; then
-      title="`cat $readme|head -n1|tr '#' '-'` - [link]($plugin)"
+      url=`git -C $plugin config --get remote.origin.url`
+      title="`cat $readme|head -n1|tr '#' '-'` - [link]($url)"
       if [[ ! "$title" == "-"* ]]; then
         echo "- $title" >> $output
       else
