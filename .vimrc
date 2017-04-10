@@ -146,3 +146,4 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " hi clear SpellBad
 " hi SpellBad cterm=underline
 set laststatus=2
+au BufWritePost *.go !gofmt -w %
