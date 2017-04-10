@@ -12,11 +12,15 @@ This repository was orginaly based on
 
 - [swift.vim](https://github.com/scanf/swift.vim.git)
 
+- [                   ,](https://github.com/vim-syntastic/syntastic.git)
+
 - [ Tagbar: a class outline viewer for Vim](https://github.com/majutsushi/tagbar.git)
 
 - [ linuxsty.vim](https://github.com/vivien/vim-addon-linux-coding-style.git)
 
 - [ fugitive.vim](https://github.com/tpope/vim-fugitive.git)
+
+- [ vimgo [![Build Status](http://img.shields.io/travis/fatih/vimgo.svg?style=flatsquare)](https://travisci.org/fatih/vimgo)](https://github.com/fatih/vim-go.git)
 
 - [ lengthmatters.vim](https://github.com/whatyouhide/vim-lengthmatters.git)
 
