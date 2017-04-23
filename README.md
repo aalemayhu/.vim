@@ -24,5 +24,5 @@ This repository was orginaly based on
 
 - [ lengthmatters.vim](https://github.com/whatyouhide/vim-lengthmatters.git)
 
-- [ VIM Table Mode v4.6.4.4 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)](https://github.com/dhruvasagar/vim-table-mode.git)
+- [ VIM Table Mode v4.6.7 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)](https://github.com/dhruvasagar/vim-table-mode.git)
 
