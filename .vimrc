@@ -12,7 +12,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'dhruvasagar/vim-table-mode'
-Plugin 'jceb/vim-orgmode'
 Plugin 'majutsushi/tagbar'
 Plugin 'powerline/powerline'
 Plugin 'scanf/swift.vim'
