@@ -35,7 +35,7 @@ generate_readme()
   done
 }
 
-#refresh_modules
+refresh_modules
 generate_readme
 
 git add .
