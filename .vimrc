@@ -4,6 +4,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/src/github.com/VundleVim/Vundle.vim
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -11,7 +12,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'jceb/vim-orgmode'
 Plugin 'majutsushi/tagbar'
+Plugin 'powerline/powerline'
 Plugin 'scanf/swift.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
