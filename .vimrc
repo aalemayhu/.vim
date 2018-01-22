@@ -18,6 +18,8 @@ Plugin 'scanf/swift.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vivien/vim-addon-linux-coding-style'
+Plugin 'vim-scripts/bash-support.vim'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
