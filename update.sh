@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -x
+
 refresh_modules()
 {
   # FROM: https://github.com/jfrazelle/.vim/blob/master/update.sh
