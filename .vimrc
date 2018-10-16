@@ -20,6 +20,7 @@ Plugin 'vivien/vim-addon-linux-coding-style'
 Plugin 'vim-scripts/bash-support.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'cmcaine/vim-uci'
+Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
