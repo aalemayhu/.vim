@@ -25,7 +25,8 @@ generate_readme()
     readme=`find $plugin -maxdepth 1 -iname 'README.*'`
     if [ -n $readme ]; then
       echo $plugin
-      url=`cat $plugin/.git/config|grep url|awk '{ print $3}'`
+      plugin_name=`basename bundle/vim-table-mode`
+      url=`cat .git/config|grep $plugin_name|tail -n1|awk '{ print $3}'`
       title="[`cat $readme|head -n1|tr '#' '-'|tr -d '-'`]($url)"
       if [[ ! "$title" == "-"* ]]; then
         echo "- $title" >> $output

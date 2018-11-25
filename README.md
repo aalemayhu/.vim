@@ -6,29 +6,29 @@ This repository was orginaly based on
 
 ## Plugins
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [ ctrlp.vim]()
+- [ ctrlp.vim](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [The NERDTree]()
+- [The NERDTree](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [ swift.vim]()
+- [ swift.vim](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [ linuxsty.vim]()
+- [ linuxsty.vim](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [ fugitive.vim]()
+- [ fugitive.vim](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- [ VIM Table Mode v4.6.7 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)]()
+- [ VIM Table Mode v4.6.7 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)](https://github.com/dhruvasagar/vim-table-mode.git)
 
-- []()
+- [](https://github.com/dhruvasagar/vim-table-mode.git)
 
