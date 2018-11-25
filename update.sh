@@ -5,7 +5,7 @@ set -x
 refresh_modules()
 {
   # FROM: https://github.com/jfrazelle/.vim/blob/master/update.sh
-  git submodule foreach git pull origin master &
+  git submodule foreach git pull origin master
 }
 
 generate_readme()
