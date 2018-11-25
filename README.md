@@ -8,27 +8,27 @@ This repository was orginaly based on
 
 - []()
 
+- [ ctrlp.vim]()
+
+- [The NERDTree]()
+
 - []()
+
+- [ swift.vim]()
 
 - []()
 
 - []()
 
-- []()
+- [ linuxsty.vim]()
+
+- [ fugitive.vim]()
 
 - []()
 
 - []()
 
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-- []()
+- [ VIM Table Mode v4.6.7 [![Build Status](https://travisci.org/dhruvasagar/vimtablemode.png?branch=master)](https://travisci.org/dhruvasagar/vimtablemode)]()
 
 - []()
 
