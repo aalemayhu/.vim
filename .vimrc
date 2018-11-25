@@ -11,15 +11,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'majutsushi/tagbar'
 Plugin 'scanf/swift.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vivien/vim-addon-linux-coding-style'
-Plugin 'vim-scripts/bash-support.vim'
-Plugin 'mxw/vim-jsx'
-Plugin 'cmcaine/vim-uci'
-Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
