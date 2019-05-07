@@ -1,36 +1,18 @@
-[submodule "bundle/Vundle.vim"]
-	path = bundle/Vundle.vim
-	url = https://github.com/gmarik/Vundle.vim.git
-[submodule "bundle/cosco.vim"]
-	path = bundle/cosco.vim
-	url = https://github.com/lfilho/cosco.vim.git
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/smartgf.vim"]
-	path = bundle/smartgf.vim
-	url = https://github.com/gorkunov/smartgf.vim.git
-[submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
-[submodule "bundle/sourcekittendaemon.vim"]
-	path = bundle/sourcekittendaemon.vim
-	url = https://github.com/keith/sourcekittendaemon.vim.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/typescript-vim"]
+        path = bundle/typescript-vim
+        url =  https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vimproc.vim"]
+        path = bundle/vimproc.vim
+        url =  https://github.com/Shougo/vimproc.vim.git
 [submodule "bundle/swift.vim"]
-	path = bundle/swift.vim
-	url = https://github.com/scanf/swift.vim.git
-[submodule "bundle/vim-addon-linux-coding-style"]
-	path = bundle/vim-addon-linux-coding-style
-	url = https://github.com/vivien/vim-addon-linux-coding-style.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim-vue"]
-	path = vim-vue
-	url = https://github.com/posva/vim-vue.git
+        path = bundle/swift.vim
+        url =  https://github.com/scanf/swift.vim.git
+[submodule "bundle/vim-vue"]
+        path = bundle/vim-vue
+        url =  https://github.com/posva/vim-vue.git
+[submodule "bundle/nerdtree"]
+        path = bundle/nerdtree
+        url =  https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/ctrlp.vim"]
+        path = bundle/ctrlp.vim
+        url =  https://github.com/ctrlpvim/ctrlp.vim.git
