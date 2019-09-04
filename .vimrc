@@ -15,6 +15,8 @@ Plugin 'scanf/swift.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'posva/vim-vue'
 Plugin 'simeng/vim-imba'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -145,3 +147,5 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " hi SpellBad cterm=underline
 set laststatus=2
 au BufWritePost *.go !gofmt -w %
+
+autocmd BufNewFile,BufRead *.imba setfiletype ruby
