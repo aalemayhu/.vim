@@ -16,3 +16,6 @@
 [submodule "bundle/vim-surround"]
         path = bundle/vim-surround
         url =  https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-windowswap"]
+        path = bundle/vim-windowswap
+        url =  https://github.com/wesQ3/vim-windowswap.git
