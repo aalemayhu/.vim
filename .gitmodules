@@ -21,6 +21,9 @@
 [submodule "bundle/vim-imba"]
         path = bundle/vim-imba
         url =  https://github.com/simeng/vim-imba.git
+[submodule "bundle/vim-less"]
+        path = bundle/vim-less
+        url =  https://github.com/groenewege/vim-less.git
 [submodule "bundle/vim-node"]
         path = bundle/vim-node
         url =  https://github.com/moll/vim-node.git

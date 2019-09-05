@@ -19,6 +19,7 @@ Plugin 'Lokaltog/vim-distinguished'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'mattn/emmet-vim'
 Plugin 'skammer/vim-css-color'
+Plugin 'groenewege/vim-less'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
