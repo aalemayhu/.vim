@@ -15,6 +15,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'simeng/vim-imba'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'Lokaltog/vim-distinguished'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -148,3 +149,6 @@ au BufWritePost *.go !gofmt -w %
 
 " comments imba
 let g:NERDCustomDelimiters = { 'imba': { 'left': '# '} }
+
+" default color scheme
+colorscheme distinguished
