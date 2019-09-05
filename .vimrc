@@ -21,6 +21,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'skammer/vim-css-color'
 Plugin 'groenewege/vim-less'
 Plugin 'itchyny/lightline.vim'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
