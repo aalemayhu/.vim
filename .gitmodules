@@ -6,6 +6,9 @@
         url =  https://github.com/mattn/emmet-vim.git
         path = bundle/emmet-vim
         url =  https://github.com/mattn/emmet-vim
+[submodule "bundle/lightline.vim"]
+        path = bundle/lightline.vim
+        url =  https://github.com/itchyny/lightline.vim.git
 [submodule "bundle/nerdcommenter"]
         path = bundle/nerdcommenter
         url =  https://github.com/scrooloose/nerdcommenter.git
