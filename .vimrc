@@ -13,6 +13,7 @@ call vundle#begin()
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'simeng/vim-imba'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

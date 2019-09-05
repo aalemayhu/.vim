@@ -4,3 +4,8 @@ all:
 
 refresh:
 	imba refresh.imba bundle > .gitmodules
+
+add-new:
+	vim +PluginInstall +q
+	make
+	make refresh
