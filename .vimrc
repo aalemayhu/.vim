@@ -157,7 +157,9 @@ au BufWritePost *.go !gofmt -w %
 let g:NERDCustomDelimiters = { 'imba': { 'left': '# '} }
 
 " default color scheme
-colorscheme distinguished
+if !exists('$TMUX')
+  colorscheme distinguished
+endif
 
 " bar
 let g:lightline = {
