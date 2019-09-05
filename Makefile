@@ -6,6 +6,6 @@ refresh:
 	imba refresh.imba bundle > .gitmodules
 
 add-new:
-	vim +PluginInstall +q
+	vim +PluginInstall +qa
 	make
 	make refresh
