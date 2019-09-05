@@ -3,4 +3,4 @@ all:
 	git submodule foreach git pull origin master
 
 refresh:
-	imba refresh.imba ./bundle > .gitmodules
+	imba refresh.imba bundle > .gitmodules
