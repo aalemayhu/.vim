@@ -4,18 +4,6 @@
 [submodule "bundle/nerdtree"]
         path = bundle/nerdtree
         url =  https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/swift.vim"]
-        path = bundle/swift.vim
-        url =  https://github.com/scanf/swift.vim.git
-[submodule "bundle/typescript-vim"]
-        path = bundle/typescript-vim
-        url =  https://github.com/leafgarland/typescript-vim.git
 [submodule "bundle/vim-imba"]
         path = bundle/vim-imba
         url =  https://github.com/simeng/vim-imba.git
-[submodule "bundle/vim-vue"]
-        path = bundle/vim-vue
-        url =  https://github.com/posva/vim-vue.git
-[submodule "bundle/vimproc.vim"]
-        path = bundle/vimproc.vim
-        url =  https://github.com/Shougo/vimproc.vim.git
