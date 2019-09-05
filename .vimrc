@@ -17,6 +17,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'wesQ3/vim-windowswap'
+Plugin 'mattn/emmet-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
