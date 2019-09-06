@@ -33,9 +33,9 @@
 [submodule "bundle/vim-less"]
         path = bundle/vim-less
         url =  https://github.com/groenewege/vim-less.git
-[submodule "bundle/vim-node"]
-        path = bundle/vim-node
-        url =  https://github.com/moll/vim-node.git
+[submodule "bundle/vim-sleuth"]
+        path = bundle/vim-sleuth
+        url =  https://github.com/tpope/vim-sleuth.git
 [submodule "bundle/vim-surround"]
         path = bundle/vim-surround
         url =  https://github.com/tpope/vim-surround.git
