@@ -18,9 +18,6 @@
 [submodule "bundle/tagbar"]
         path = bundle/tagbar
         url =  https://github.com/majutsushi/tagbar.git
-[submodule "bundle/vim-css-color"]
-        path = bundle/vim-css-color
-        url =  https://github.com/skammer/vim-css-color.git
 [submodule "bundle/vim-distinguished"]
         path = bundle/vim-distinguished
         url =  https://github.com/Lokaltog/vim-distinguished.git
