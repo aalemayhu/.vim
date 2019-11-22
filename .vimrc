@@ -73,6 +73,9 @@ set cino=:0
 set shiftround
 set title
 
+" ...
+set backupcopy=yes
+
 " source ~/.vim/cppcomplete.vim
 
 ab helol hello
