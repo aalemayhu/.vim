@@ -164,7 +164,7 @@ au BufWritePost *.go !gofmt -w %
 let g:NERDCustomDelimiters = { 'imba': { 'left': '# '} }
 
 " default color scheme
-if !exists('$TMUX')
+if !exists('$TMUX') && isdirectory($HOME ."/.vim/bundle/vim-distinguished")
   colorscheme distinguished
 endif
 
