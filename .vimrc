@@ -194,12 +194,14 @@ let g:vimshell_force_overwrite_statusline = 0
 
 let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
 
+silent !mkdir ~/.vim/backup > /dev/null 2>&1
+
 " Use Backup feature so `yarn watch` works in imba source code
 "Turn on backup option
 set backup
 
 "Where to store backups
-set backupdir=~/.vim/backup//
+set backupdir=~/.vim/backup/
 
 "Make backup before overwriting the current buffer
 set writebackup
