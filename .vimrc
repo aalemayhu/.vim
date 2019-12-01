@@ -27,6 +27,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'yuezk/vim-js'
 Plugin 'powerline/powerline-fonts'
+Plugin 'rizzatti/dash.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
