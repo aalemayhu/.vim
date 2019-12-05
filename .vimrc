@@ -10,7 +10,6 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'M4R7iNP/vim-imba'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
@@ -31,6 +30,8 @@ Plugin 'idanarye/vim-merginal'
 Plugin 'rbong/vim-flog'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-vinegar'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -195,8 +196,6 @@ let g:unite_force_overwrite_statusline = 0
 let g:vimfiler_force_overwrite_statusline = 0
 let g:vimshell_force_overwrite_statusline = 0
 
-let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
-
 silent !mkdir ~/.vim/backup > /dev/null 2>&1
 
 " Use Backup feature so `yarn watch` works in imba source code
@@ -225,3 +224,8 @@ augroup ProjectDrawer
   autocmd!
   autocmd VimEnter * :Vexplore
 augroup END
+
+" Get FZF via ctrl-p
+nnoremap <C-p> :Files<Cr>
+" do we need to ignore these?
+" let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
