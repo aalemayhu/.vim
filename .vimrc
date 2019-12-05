@@ -32,6 +32,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-vinegar'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plugin 'junegunn/fzf.vim'
+Plugin 'glts/vim-radical'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
