@@ -30,6 +30,7 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'idanarye/vim-merginal'
 Plugin 'rbong/vim-flog'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-vinegar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
