@@ -37,6 +37,7 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'yuezk/vim-js'
 Plugin 'rust-lang/rust.vim'
+Plugin 'vim-syntastic/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -230,3 +231,16 @@ let g:netrw_winsize = 25
 nnoremap <C-p> :Files<Cr>
 " do we need to ignore these?
 " let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
+
+" Add syntastic defaults
+set statusline+=%#warningmsg#
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_rust_checkers = ['rustc']
+" Enable rustfmt on save
+let g:rustfmt_autosave = 1
