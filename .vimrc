@@ -9,9 +9,9 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+" My color theme distinguished
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'M4R7iNP/vim-imba'
-Plugin 'glts/vim-radical'
 Plugin 'groenewege/vim-less'
 Plugin 'idanarye/vim-merginal'
 Plugin 'itchyny/lightline.vim'
