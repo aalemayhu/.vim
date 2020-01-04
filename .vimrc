@@ -30,8 +30,6 @@ Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sleuth'
 Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'tpope/vim-vinegar'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'yuezk/vim-js'
 Plugin 'rust-lang/rust.vim'
@@ -62,7 +60,6 @@ let loaded_matchparen = 1
 let g:js_indent_log = 0
 syntax on
 " autocmd BufWritePre *.cc,*.c,*.h %s/  *$//eg
-map ;<Space> :w !~/bin/giver<CR>
 
 map <Down> gj
 map <Up>   gk
@@ -87,10 +84,6 @@ set shiftround
 set title
 
 " ...
-set backupcopy=yes
-
-" source ~/.vim/cppcomplete.vim
-
 ab helol hello
 ab fpritnf fprintf
 ab fpitnf  fprintf
@@ -146,7 +139,6 @@ endfunction
 
 au FileType c,cc call GnuIndent() 
 
-" cmap w!! w !sudo tee % >/dev/null
 
 " vdrift
 "set sts=8 sw=8 noet cinoptions=
@@ -161,7 +153,7 @@ highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Re
 highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
 
 " To spell check all git commit messages
-" au BufNewFile,BufRead COMMIT_EDITMSG set spell
+au BufNewFile,BufRead COMMIT_EDITMSG set spell
 "
 " " Underline misspelled words
 " hi clear SpellBad
@@ -218,17 +210,8 @@ set backupcopy=yes
 "Meaningful backup name, ex: filename@2015-04-05.14:59
 au BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
 
-" Get sidebar look
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 25
-
 " Get FZF via ctrl-p
 nnoremap <C-p> :Files<Cr>
-" do we need to ignore these?
-" let g:ctrlp_user_command = ['.git/', 'git ls-files --cached --others  --exclude-standard %s']
 
 " Add syntastic defaults
 set statusline+=%#warningmsg#
