@@ -13,7 +13,6 @@ call vundle#begin()
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'M4R7iNP/vim-imba'
 Plugin 'groenewege/vim-less'
-Plugin 'idanarye/vim-merginal'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
