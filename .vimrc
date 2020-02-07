@@ -34,6 +34,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'yuezk/vim-js'
 Plugin 'rust-lang/rust.vim'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'alpertuna/vim-header'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -225,3 +226,9 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_rust_checkers = ['rustc']
 " Enable rustfmt on save
 let g:rustfmt_autosave = 1
+
+" Copyright header
+let g:header_field_author = 'Alexander Alemayhu'
+let g:header_field_author_email = 'alexander@alemayhu.com'
+let g:header_auto_add_header = 0
+let g:header_field_license_id = 'MIT'
