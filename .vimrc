@@ -225,6 +225,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_rust_checkers = ['rustc']
+let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
 " Enable rustfmt on save
 let g:rustfmt_autosave = 1
 
