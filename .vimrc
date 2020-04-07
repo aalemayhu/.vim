@@ -12,7 +12,6 @@ call vundle#begin()
 " My color theme distinguished
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'M4R7iNP/vim-imba'
-Plugin 'groenewege/vim-less'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -20,22 +19,18 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'maralla/completor.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'powerline/powerline-fonts'
 Plugin 'rbong/vim-flog'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'stephpy/vim-yaml'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sleuth'
 Plugin 'tpope/vim-surround'
 Plugin 'wesQ3/vim-windowswap'
-Plugin 'yuezk/vim-js'
-Plugin 'rust-lang/rust.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'alpertuna/vim-header'
-Plugin 'keith/swift.vim'
+Plugin 'sheerun/vim-polyglot'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
