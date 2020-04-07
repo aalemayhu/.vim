@@ -31,6 +31,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'alpertuna/vim-header'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
