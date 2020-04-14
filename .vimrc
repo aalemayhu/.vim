@@ -33,6 +33,7 @@ Plugin 'alpertuna/vim-header'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdtree'
 Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-endwise'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
