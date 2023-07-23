@@ -24,7 +24,7 @@ Plugin 'rbong/vim-flog'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ternjs/tern_for_vim'
-Plugin 'tpope/vim-fugitive'
+" Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sleuth'
 Plugin 'tpope/vim-surround'
 Plugin 'wesQ3/vim-windowswap'
@@ -34,6 +34,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-endwise'
+Plugin 'dbaileychess/vim-screeps'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -237,4 +238,5 @@ python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
 
-set laststatus=2
+" Disable syntastic for python
+let g:syntastic_mode_map = { 'passive_filetypes': ['python'] }
