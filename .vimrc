@@ -35,6 +35,7 @@ Plugin 'preservim/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-endwise'
 Plugin 'dbaileychess/vim-screeps'
+Plugin 'unisonweb/unison', { 'branch': 'trunk', 'rtp': 'editor-support/vim' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
