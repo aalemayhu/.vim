@@ -235,9 +235,5 @@ let g:header_field_author_email = 'alexander@alemayhu.com'
 let g:header_auto_add_header = 0
 let g:header_field_license_id = 'MIT'
 
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
-
 " Disable syntastic for python
 let g:syntastic_mode_map = { 'passive_filetypes': ['python'] }
